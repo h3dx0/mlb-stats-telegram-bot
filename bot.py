@@ -8,7 +8,7 @@ updater = Updater(token='466300996:AAEzKqfJO_K16tUVaClDU2QfbaceBbnhjSY')
 dispatcher = updater.dispatcher
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',level=logging.INFO)
 def start(bot, update):
-    bot.send_message(chat_id=update.message.chat_id, text="Hola soy el bot que ayudara a conocer los resultados de la MLB")
+    bot.send_message(chat_id=update.message.chat_id, text="Hello I am the bot that will help you to know the MLB results")
 
 def today_stats(bot, update):
     today = datetime.date.today()
